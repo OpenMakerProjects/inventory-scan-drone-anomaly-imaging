@@ -1,0 +1,20 @@
+{
+  "id": 869,
+  "title": "Inventory Scan Drone Anomaly Imaging",
+  "repository_slug": "inventory-scan-drone-anomaly-imaging",
+  "category": "Drones",
+  "platform": "Pixhawk + Raspberry Pi",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 28,
+  "connectivity": "LoRa",
+  "components": [
+    "camera",
+    "IMU"
+  ],
+  "scope": "Build a drones prototype that uses camera, IMU to capture extra images when anomalies are detected. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Anomaly Imaging demonstration with repeatable test steps",
+  "mode": "edge_classification",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
